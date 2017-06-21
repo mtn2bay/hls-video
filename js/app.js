@@ -7,7 +7,6 @@ button.addEventListener('click', function(event) {
   event.preventDefault();
   var src = videoURL.value;
   videoURL.value = '';
-  console.log(src);
   loadStream(src);
 })
 
